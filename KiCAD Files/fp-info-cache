@@ -1,4 +1,4 @@
-20544688760327500
+20554694500566454
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -52212,6 +52212,48 @@ Footprint
 0
 2
 2
+Footprint
+696108003002
+
+
+0
+2
+2
+Footprint
+CSTCE16M0V53-R0
+SMD Resomator/Filter Murata CSTCE, https://www.murata.com/en-eu/products/productdata/8801162264606/SPEC-CSTNE16M0VH3C000R0.pdf
+SMD SMT ceramic resonator filter
+0
+3
+3
+Footprint
+Inductor_4mm(5x5mm pads)
+
+
+0
+2
+2
+Footprint
+Omron_B3F-12x12mm
+SW PUSH 12mm http://katalog.we-online.de/em/datasheet/430476085716.pdf
+tact sw push 12mm
+0
+4
+2
+Footprint
+PRW0AWJW33JB00
+
+
+0
+2
+2
+Footprint
+ST7789
+Through hole straight pin header, 1x07, 2.54mm pitch, single row
+Through hole pin header THT 1x07 2.54mm single row
+0
+7
+7
 Fuse
 Fuse_0402_1005Metric
 Fuse SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
