@@ -1,0 +1,22 @@
+name: <name of the diagram>
+description: <diagram description>
+components: # A dictionary of component reference to component description
+    <componentRef>:
+        description: <component description>
+        groups: <a list of groups>
+        highlight: true/false
+        highlightBoth: true/false # Forces that the component can be highlighted on both front and back
+        pins: # A dictionary of pin names to pin description
+            <pinName>:
+                name: <human readable name of the pin>
+                description: <pin description>
+                alias: <pinName> # Use description of other pin. Alternative for description
+                groups: <a list of groups>
+groups: # An optional dictionary specifying tree structure of the groups, e.g.:
+    Peripherals:
+        - Adc
+        - SPI
+        - I2C
+    Pins:
+        - Digital
+        - Analog
