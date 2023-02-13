@@ -1759,7 +1759,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 64b49f6d-7a6d-424f-8d9e-89af6016fa78)
   )
-  (text "- logo\n- qrcode\n- email\n- ime i verzija" (at 24.13 189.23 0)
+  (text "- dodati 100k pull-down otpornike na sve analogne ulaze\n- logo\n- qrcode\n- email\n- ime i verzija"
+    (at 17.78 193.675 0)
     (effects (font (size 2 2)) (justify left bottom))
     (uuid 8ed5d641-a32f-46b5-a139-7dfe3ea2dd06)
   )
