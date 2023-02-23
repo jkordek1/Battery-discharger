@@ -131,7 +131,7 @@ void loop() {
       if (getVoltage(BAT4AI) > voltage) BAT4DC = true;
       else BAT4DC = false;
 
-      if ((!BAT1DC && (getVoltage(BAT1AI) < voltage) && (getVoltage(BAT1AI) > 0)) || (!BAT2DC && (getVoltage(BAT2AI) < voltage) && (getVoltage(BAT2AI) > 0)) || (!BAT3DC && (getVoltage(BAT3AI) < voltage) && (getVoltage(BAT3AI) > 0)) || (!BAT4DC && (getVoltage(BAT4AI) < voltage))  && (getVoltage(BAT4AI) > 0)) {
+      if (((getVoltage(BAT1AI) < voltage) && (getVoltage(BAT1AI) > 1000)) || ((getVoltage(BAT2AI) < voltage) && (getVoltage(BAT2AI) > 1000)) || ((getVoltage(BAT3AI) < voltage) && (getVoltage(BAT3AI) > 1000)) || ((getVoltage(BAT4AI) < voltage)  && (getVoltage(BAT4AI) > 1000))) {
         buzzing = true;
       }
 
@@ -185,6 +185,8 @@ void tipkalo2() {
   brojacMjerenje = 0;
 
   buzzing = false;
+  buzzerBrojac = 0;
+  noTone(buzzer);
 
 }
 
