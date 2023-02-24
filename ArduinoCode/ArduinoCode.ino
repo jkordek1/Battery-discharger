@@ -310,10 +310,10 @@ void screen2() {
   if (BAT1DC) struja = bat1Voltage / 3.3;
   else struja = 0;
   display.print(struja);
-  //  float postotak = (49.17 * napon / 1000.0) - 147.5;
-  //  if (postotak > 59) postotak = 59;
-  //  else if (postotak < 0) postotak = 0;
-  //  display.fillRect(2, 30, postotak, 4, SH110X_WHITE); // pocX, pocY, velX, velY //velX min 0, max 59
+  float postotak = (49.17 * bat1Voltage / 1000.0) - 147.5;
+  if (postotak > 59) postotak = 59;
+  else if (postotak < 0) postotak = 0;
+  if (BAT1DC) display.fillRect(2, 30, postotak, 4, SH110X_WHITE); // pocX, pocY, velX, velY //velX min 0, max 59
 
   display.setCursor(65, 11);
   display.setTextSize(1);
@@ -326,10 +326,10 @@ void screen2() {
   if (BAT2DC) struja = bat2Voltage / 3.3;
   else struja = 0;
   display.print(struja);
-  //  postotak = (49.17 * napon / 1000.0) - 147.5;
-  //  if (postotak > 59) postotak = 59;
-  //  else if (postotak < 0) postotak = 0;
-  //  display.fillRect(67, 30, postotak, 4, SH110X_WHITE); // pocX, pocY, velX, velY //velX min 0, max 59
+  postotak = (49.17 * bat2Voltage / 1000.0) - 147.5;
+  if (postotak > 59) postotak = 59;
+  else if (postotak < 0) postotak = 0;
+  if (BAT2DC) display.fillRect(67, 30, postotak, 4, SH110X_WHITE); // pocX, pocY, velX, velY //velX min 0, max 59
 
   display.setCursor(0, 39);
   display.setTextSize(1);
@@ -342,10 +342,10 @@ void screen2() {
   if (BAT3DC) struja = bat3Voltage / 3.3;
   else struja = 0;
   display.print(struja);
-  //  postotak = (49.17 * napon / 1000.0) - 147.5;
-  //  if (postotak > 59) postotak = 59;
-  //  else if (postotak < 0) postotak = 0;
-  //  display.fillRect(2, 58, postotak, 4, SH110X_WHITE); // pocX, pocY, velX, velY //velX min 0, max 59
+  postotak = (49.17 * bat3Voltage / 1000.0) - 147.5;
+  if (postotak > 59) postotak = 59;
+  else if (postotak < 0) postotak = 0;
+  if (BAT3DC) display.fillRect(2, 58, postotak, 4, SH110X_WHITE); // pocX, pocY, velX, velY //velX min 0, max 59
 
   display.setCursor(65, 39);
   display.setTextSize(1);
@@ -358,9 +358,9 @@ void screen2() {
   if (BAT4DC) struja = bat4Voltage / 3.3;
   else struja = 0;
   display.print(struja);
-  //  postotak = (49.17 * napon / 1000.0) - 147.5;
-  //  if (postotak > 59) postotak = 59;
-  //  else if (postotak < 0) postotak = 0;
-  //  display.fillRect(67, 58, postotak, 4, SH110X_WHITE); // pocX, pocY, velX, velY //velX min 0, max 59
+  postotak = (49.17 * bat4Voltage / 1000.0) - 147.5;
+  if (postotak > 59) postotak = 59;
+  else if (postotak < 0) postotak = 0;
+  if (BAT4DC) display.fillRect(67, 58, postotak, 4, SH110X_WHITE); // pocX, pocY, velX, velY //velX min 0, max 59
 
 }
