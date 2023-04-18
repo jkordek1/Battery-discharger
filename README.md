@@ -1,4 +1,10 @@
 # Battery discharger
+
+[![Version](https://img.shields.io/github/v/release/jkordek1/Battery-discharger)](https://github.com/jkordek1/Man-Don-t-Get-Angry-Board-game/releases/tag/Initial)
+[![Status](https://img.shields.io/badge/status-active-success.svg)]()
+[![GitHub Issues](https://img.shields.io/github/issues/jkordek1/Battery-discharger)](https://github.com/jkordek1/Battery-discharger/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/jkordek1/Battery-discharger)](https://github.com/jkordek1/Battery-discharger/pulls)
+ 
  Automated battery discharger for Li-Po and Li-Ion batteries powered by ATmega328p microcontroller.
  Used for safely discharging 4 single-cell 18650 batteries to a storage level voltage (3.7V).
  No need for external power, the circuit is powered from cell 1.
