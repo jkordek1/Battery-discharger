@@ -40,3 +40,15 @@ This device discharges the batteries to the storage level voltage.
 <p align="center">
   <img width="600" src="https://raw.githubusercontent.com/jkordek1/Battery-discharger/main/Images/Front.jpg">
 </p>
+
+## Project folder structure
+    .
+    ├── ...
+    ├── 3D models               # 3D models of added components
+    ├── ArduinoCode             # .ino file for Arduino
+    ├── Images                  # Images of the project
+    ├── KiCAD_Files             # Main folder
+    │   ├── bom                 # ibom folder for assembly
+    │   ├── gerber              # gerber output folder
+    │   └── jlcpcb              # gerber and assembly folder - addon
+    └── ...
