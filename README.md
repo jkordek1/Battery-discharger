@@ -1,6 +1,6 @@
 # Battery discharger
 
-[![Version](https://img.shields.io/github/v/release/jkordek1/Battery-discharger)](https://github.com/jkordek1/Man-Don-t-Get-Angry-Board-game/releases/tag/Initial)
+[![Version](https://img.shields.io/github/v/release/jkordek1/Battery-discharger)](https://github.com/jkordek1/Battery-discharger/releases/tag/Initial)
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
 [![GitHub Issues](https://img.shields.io/github/issues/jkordek1/Battery-discharger)](https://github.com/jkordek1/Battery-discharger/issues)
 [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/jkordek1/Battery-discharger)](https://github.com/jkordek1/Battery-discharger/pulls)
