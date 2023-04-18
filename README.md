@@ -8,7 +8,7 @@
  
 ## Why do you need this?
 
-I have a lot of 18650 Li-Ion battery cells that I don't use most of the time. In order for cells to stay healthy, they need to be stored at 50% of capacity (3.7 - 3.8V).
+If you have a lot of 18650 Li-Ion battery cells that you won't be using any time soon you need to discharge them. In order for cells to stay healthy and remain their capacirty, they need to be stored at 50% of capacity (3.7 - 3.8V).
 This device discharges the batteries to the storage level voltage.
 
 ## What is it?
