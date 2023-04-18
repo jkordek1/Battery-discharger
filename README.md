@@ -24,6 +24,14 @@ This device discharges the batteries to the storage level voltage.
  
  The device is functional but could be improved.
  
+ ## Features
+ 
+ - 1.3" OLED screen
+ - 2 push buttons used as controls
+ - Buzzer for audio queues
+ - ISP programming port
+ - 4x 18650 battery discharging at the same time
+ 
  ## TO-DO
  - implement voltage level selection via push buttons 
  
