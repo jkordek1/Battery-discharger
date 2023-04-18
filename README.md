@@ -5,9 +5,17 @@
 [![GitHub Issues](https://img.shields.io/github/issues/jkordek1/Battery-discharger)](https://github.com/jkordek1/Battery-discharger/issues)
 [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/jkordek1/Battery-discharger)](https://github.com/jkordek1/Battery-discharger/pulls)
  
+ 
+## Why do you need this?
+
+I have a lot of 18650 Li-Ion battery cells that I don't use most of the time. In order for cells to stay healthy, they need to be stored at 50% of capacity (3.7 - 3.8V).
+This device discharges the batteries to the storage level voltage.
+
+## What is it?
+
  Automated battery discharger for Li-Po and Li-Ion batteries powered by ATmega328p microcontroller.
  Used for safely discharging 4 single-cell 18650 batteries to a storage level voltage (3.7V).
- No need for external power, the circuit is powered from cell 1.
+ No need for external power, the circuit is powered from cell #1.
  
  First push button switches between voltage and current monitoring.
  Second push button is used for manual voltage level measurement and for deactivating the buzzer.
